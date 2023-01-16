@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/front-end-project/static/css/main.cf8348eb.css",
-    "main.js": "/front-end-project/static/js/main.28656229.js",
+    "main.css": "/front-end-project/static/css/main.51262bdc.css",
+    "main.js": "/front-end-project/static/js/main.e6a675ef.js",
     "static/media/video.mp4": "/front-end-project/static/media/video.cbc4864e3201df9a76f8.mp4",
     "static/media/nft_image_0.png": "/front-end-project/static/media/nft_image_0.634d9dda16dc062370c7.png",
     "static/media/nft_owner_show.png": "/front-end-project/static/media/nft_owner_show.d62fd545ca2a6ebf4583.png",
@@ -37,11 +37,11 @@
     "static/media/HelveticaNeueCyr-Thin.woff": "/front-end-project/static/media/HelveticaNeueCyr-Thin.7509330faf374d41f88d.woff",
     "static/media/nft_owner_6.png": "/front-end-project/static/media/nft_owner_6.d2c7fb7ae1c0d110e434.png",
     "index.html": "/front-end-project/index.html",
-    "main.cf8348eb.css.map": "/front-end-project/static/css/main.cf8348eb.css.map",
-    "main.28656229.js.map": "/front-end-project/static/js/main.28656229.js.map"
+    "main.51262bdc.css.map": "/front-end-project/static/css/main.51262bdc.css.map",
+    "main.e6a675ef.js.map": "/front-end-project/static/js/main.e6a675ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf8348eb.css",
-    "static/js/main.28656229.js"
+    "static/css/main.51262bdc.css",
+    "static/js/main.e6a675ef.js"
   ]
 }
