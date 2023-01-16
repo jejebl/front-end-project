@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Marketplace from './components/Marketplace/Marketplace';
+import Sellers from "./components/Sellers/Sellers";
+import NFTDetail from "./components/NFTDetail/NFTDetail";
+import SellersDetail from "./components/SellersDetail/SellersDetail";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+
+      <Routes>
+      <Route path="*" element={<Home/>}>
+        </Route>
+        <Route path="/front-end-project" element={<Home/>}>
+        </Route>
+        <Route exact path="/marketplace" element={<Marketplace/>}>
+        </Route>
+        <Route exact path="/sellers" element={<Sellers/>}>
+        </Route>
+        <Route exact path="/sellersDetail/:ownerId" element={<SellersDetail/>}>
+        </Route>
+        <Route exact path="/nftDetail/:nftId" element={<NFTDetail/>}>
+        </Route>
+      </Routes>
+
+      <Footer />
     </div>
-  );
+  )
 }
 
 export default App;

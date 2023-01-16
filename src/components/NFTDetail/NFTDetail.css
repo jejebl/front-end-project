@@ -1,0 +1,304 @@
+.nftdetail {
+  background-color: black;
+  padding: 2rem 6rem;
+  color: white;
+}
+.nftdetail_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.nftdetail_nftimg {
+  width: 40%;
+  height: 40%;
+  border-radius: 1rem;
+}
+.nftdetail_desciption_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  width: 40%;
+}
+.nftdetail_desciption_part1_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.nftdetail_desciption_part1_container h1 {
+  margin-bottom: 1rem;
+  font-size: 48px;
+}
+.nftdetail_desciption_part1_owner_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nftdetail_desciption_part1_owner_container img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.nftdetail_desciption_part1_owner_container h2 {
+  font-size: 20px;
+}
+
+.nftdetail_desciption_part2_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 3px solid grey;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+}
+.nftdetail_desciption_part2_part1_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nftdetail_desciption_part2_part1_left_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #2D3154;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 50%;
+}
+.nftdetail_description_price_title {
+  font-size: 1.5rem;
+}
+.nftdetail_desciption_part2_part1_ethPrice_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.nftdetail_desciption_part2_part1_ethPrice_container img {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+}
+.nftdetail_desciption_part2_part1_ethPrice_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nftdetail_priceEth {
+  font-size: 1.8rem;
+}
+.nftdetail_priceUsd {
+  font-size: 1rem;
+}
+.nftdetail_desciption_part2_part1_right_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #2D3154;
+  margin-left: 1rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 50%;
+}
+
+.nftdetail_desciption_part2_part2_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.nftdetail_desciption_part2_part2_container img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nftdetail_desciption_part2_part3_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.nftdetail_desciption_part2_part3_buynow {
+  width: 62%;
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+}
+.nftdetail_desciption_part2_part3_placebid {
+  width: 32%;
+  background-color: #7733FF;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+  .nftdetail {
+    padding: 2rem 3rem;
+  }
+  .nftdetail_description_price_title {
+    font-size: 1rem;
+  }
+  .nftdetail_priceEth {
+    font-size: 1.3rem;
+  }
+  .nftdetail_priceUsd {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .nftdetail_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nftdetail_desciption_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    width: 40%;
+  }
+  .nftdetail_desciption_part2_part3_container {
+    flex-direction: column;
+  }
+  .nftdetail_nftimg {
+    margin-bottom: 1rem;
+  }
+  .nftdetail_desciption_part2_part3_buynow {
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .nftdetail_desciption_part2_part3_placebid {
+    width: 100%;
+    background-color: #7733FF;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .nftdetail_nftimg {
+    width: 50%;
+    height: 50%;
+  }
+  .nftdetail_desciption_container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .nftdetail_nftimg {
+    width: 70%;
+    height: 70%;
+  }
+  .nftdetail_desciption_container {
+    width: 70%;
+  }
+  .nftdetail_desciption_part2_part3_buynow {
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .nftdetail_desciption_part2_part3_placebid {
+    width: 100%;
+    background-color: #7733FF;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .nftdetail_nftimg {
+    width: 100%;
+    height: 100%;
+  }
+  .nftdetail_desciption_container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .nftdetail_desciption_part2_part1_ethPrice_container img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+  .nftdetail_desciption_part2_part1_left_container {
+    padding: 1rem;
+    width: 50%;
+  }
+  .nftdetail_desciption_part2_part1_right_container {
+    padding: 1rem;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .nftdetail {
+    padding: 30px;
+  }
+  .nftdetail_desciption_part2_part1_container {
+    flex-direction: column;
+  }
+  .nftdetail_desciption_part2_part1_left_container {
+    width: 100%;
+  }
+  .nftdetail_desciption_part2_part1_right_container {
+    margin-left: 0px;
+    margin-top: 1rem;
+    width: 100%;
+  }
+}

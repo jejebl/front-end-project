@@ -1,0 +1,166 @@
+.nft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.nft_image {
+  width: 100%;
+  height: 70%;
+}
+.nft_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+.nft_description {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  border-radius: 0 0 1rem 1rem;
+}
+.nft_description_title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.ntf_owner {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.ntf_owner img {
+  width: 40px;
+  height: 40px;
+}
+.nft_owner_name {
+  margin-left: 1rem;
+  font-size: 1.8rem;
+  color: grey;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nft_price {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nft_price img {
+  width: 40px;
+  height: 40px;
+}
+.nft_price_amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+.nft_price_amount_eth {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.nft_price_amount_usd {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nft_price_like {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: #7733FF;
+  background-color: #D2D7FF;
+}
+.like-icon {
+  width: 25px;
+  height: 25px;
+}
+.nft_price_like_number {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 800px) {
+  .nft_image {
+    border-radius: 10px 10px 0 0;
+  }
+  .nft_description {
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0 0 10px 10px;
+  }
+  .ntf_owner {
+    margin-top: 5px;
+  }
+  .ntf_owner img {
+    width: 30px;
+    height: 30px;
+  }
+  .nft_owner_name {
+    margin-left: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .nft_price {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .nft_price img {
+    width: 30px;
+    height: 30px;
+  }
+  .nft_price_amount {
+    margin-left: 5px;
+  }
+  .nft_price_amount_eth {
+    font-size: 20px;
+  }
+  .nft_price_amount_usd {
+    font-size: 10px;
+  }
+  .nft_price_like {
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+  .like-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .nft_price_like_number {
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nft_image {
+    border-radius: 10px 10px 0 0;
+  }
+  .nft_description {
+    padding-top: 1rem;
+  }
+  .nft_description_title {
+    font-size: 20px;
+  }
+}

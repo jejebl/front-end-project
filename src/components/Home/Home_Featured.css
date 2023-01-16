@@ -1,0 +1,128 @@
+.home_featured {
+  background-color: black;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_featured_title_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+.home_featured_title_container h1 {
+  font-size: 50px;
+}
+.home_featured_seeAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_featured_seeAll p {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.seeAll-icon {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.home_featured_display_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12rem;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.home_featured_display {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.home_featured_display::-webkit-scrollbar {
+  display: none;
+}
+
+.home_featured_nft {
+  min-width: 400px;
+  margin-right: 2rem;
+}
+
+
+
+.home_featured_arrows {
+  padding-top: 3rem;
+  padding-right: 12rem;
+  padding-left: 12rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.arrow-icon {
+  color: white;
+  width: 80px;
+  height: 80px;
+  margin-left: 2rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+  .home_featured_title_container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .home_featured_display_container {
+    max-width: 100%;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home_featured_title_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .home_featured_display_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .home_featured_title_container h1 {
+    font-size: 30px;
+  }
+  .home_featured_seeAll p {
+    font-size: 15px;
+  }
+  .seeAll-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .home_featured_arrows {
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .arrow-icon {
+    width: 300px;
+    height: 70px;
+    margin-left: 0px;
+  }
+}
